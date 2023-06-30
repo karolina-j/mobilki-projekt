@@ -1,0 +1,144 @@
+.home-container {
+    color: #242138;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-direction: column;
+    gap: 50px;
+}
+
+.home-welcome {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 35px;
+}
+
+.logo-image {
+    flex-grow: 3;
+    min-height: 150px;
+    width: 50vw;
+    align-self: center;
+}
+
+.welcome-text {
+    flex-grow: 2;
+    font-size: calc(25px + 1.25vw);
+    overflow-wrap: break-word;
+    font-weight: 800;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.answer {
+    font-size: calc(20px + 1.25vw);
+    color: #ad4d7f; /*6557c0  6855df  */
+}
+
+.home-choice {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 45px;
+}
+
+.choice-text,
+.signup-question {
+    font-size: calc(18px + 1.25vw);
+
+    overflow-wrap: break-word;
+    font-weight: 600;
+    text-align: center;
+}
+
+.chuck-undertext {
+    color: #4230ba;
+    font-weight: 600;
+    font-size: calc(14px + 1.25vw);
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.home-chuck {
+    width: 50%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.home-signUp {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 30px;
+}
+
+.signup-answer {
+    width: 70%;
+    font-size: calc(15px + 1.25vw);
+    color: #ad4d7f; /*6557c0  6855df  */
+}
+
+.signUp-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 10px;
+}
+
+.home-signUp > a {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-redirect {
+    width: 50%;
+    background-color: #ad4d7f;
+    border-color: #ad4d7f;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px -10px #42445a;
+
+    color: white;
+    font-weight: 600;
+
+    min-height: 45px;
+    height: 5vw;
+    font-size: calc(9px + 1.25vw);
+}
+
+hr {
+    width: 85%;
+    border: none;
+    height: 1.1px;
+    background-image: linear-gradient(to right, #4f6d4f15, #4f6d4f, #4f6d4f15);
+}
+
+.chuck-logo {
+    min-height: 50px;
+    width: 40vw;
+
+    align-self: center;
+}

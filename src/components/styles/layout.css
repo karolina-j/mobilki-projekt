@@ -1,0 +1,47 @@
+.layout {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.layout > .Chuck-page {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.layout > .Auth-page {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.layout > .Auth-page > * {
+    width: 100%;
+}
+
+.layout > .home-container {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 40px;
+    margin-bottom: 130px;
+}

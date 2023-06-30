@@ -1,0 +1,48 @@
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 15px 0;
+    background-color: #abc7ab; /*b9d5b9;*/ /* #9ec29e */
+}
+
+a {
+    text-decoration: none;
+}
+
+li > * {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.nav-logo {
+    min-height: 45px;
+    min-width: 45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.nav-home-logo {
+    background-image: url("../../images/homeMe2.png");
+}
+
+.nav-chuck-logo {
+    min-width: 65px;
+    background-image: url("../../images/hatMe2.png");
+}
+
+.nav-account-logo {
+    background-image: url("../../images/accountMe.png");
+}
