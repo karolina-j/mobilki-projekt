@@ -112,7 +112,9 @@ p {
 
     background-color: #ebeaea;
 }
-
+label {
+    width: 50px;
+}
 .GetJoke-input:hover,
 .selectCategory:hover {
     background-color: #e8e8f1;

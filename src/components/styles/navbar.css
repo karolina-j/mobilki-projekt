@@ -39,8 +39,8 @@ li > * {
 }
 
 .nav-chuck-logo {
-    min-width: 65px;
-    background-image: url("../../images/hatMe2.png");
+    min-width: 75px;
+    background-image: url("../../images/chuckLogo.png");
 }
 
 .nav-account-logo {

@@ -11,7 +11,9 @@ function HomePage() {
             <div className="home-welcome">
                 <img className="logo-image" src={logo} />
                 <div className="welcome-text">
-                    <div>Looking for a quick laugh?</div>
+                    <div className="welcome-question">
+                        Looking for a quick laugh?
+                    </div>
                     <div className="answer">We got you!</div>
                 </div>
             </div>
