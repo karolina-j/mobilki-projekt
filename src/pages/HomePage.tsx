@@ -1,5 +1,4 @@
-import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "../components/styles/homePage.css";
 import chuckLogo from "../images/chuckLogo.png";

@@ -1,5 +1,4 @@
-import React, { useState, useEffect, ChangeEvent, useContext } from "react";
-import axios from "axios";
+import React, { useState, useContext } from "react";
 import { auth } from "../firebaseSetup";
 import { AuthContext } from "../context/AuthContext";
 

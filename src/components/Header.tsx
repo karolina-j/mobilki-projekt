@@ -1,5 +1,3 @@
-import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
 import "./styles/header.css";
 
 import logo from "../images/logo.png";
